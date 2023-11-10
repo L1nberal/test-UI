@@ -1,3 +1,11 @@
+import { Tabs } from './tabs';
+
+import './content.scss';
+
 export const Content = () => {
-  return <div>Content</div>;
+  return (
+    <div>
+      <Tabs />
+    </div>
+  );
 };
