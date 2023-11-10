@@ -1,0 +1,44 @@
+.header-wrapper {
+  background: #000;
+  height: 72px;
+
+  .inner {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .nav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100%;
+    width: 500px;
+  }
+
+  .nav-item {
+    list-style: none;
+    color: #b0b0b0;
+    line-height: 71px;
+    font-size: 16px;
+    font-weight: 500;
+    flex-grow: 1;
+    cursor: pointer;
+    text-align: center;
+
+    &:hover {
+      background-color: #1e1e1e;
+    }
+  }
+}

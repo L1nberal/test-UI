@@ -1,0 +1,114 @@
+.page-title-wrapper {
+  height: 640px;
+  background-image: url('../../../../assets//page-title-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 100%;
+  display: flex;
+  gap: 228px;
+  justify-content: center;
+  align-items: center;
+
+  .logo {
+    width: 178px;
+    margin-bottom: 35px;
+  }
+
+  .title {
+    font-size: 37px;
+    width: 514px;
+    color: white;
+    font-weight: 200;
+  }
+
+  .divider {
+    height: 2px;
+    background-color: white;
+    width: 65px;
+    margin: 35px 0px;
+  }
+
+  .sub-title {
+    width: 464px;
+    color: white;
+    font-weight: 300;
+    margin-bottom: 45px;
+  }
+
+  .download-btn {
+    width: 136px;
+    height: 42px;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+
+  .register-container {
+    width: 360px;
+    height: 360px;
+    background-color: white;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .register-title {
+    color: #333333;
+    font-size: 22px;
+    font-weight: 600;
+    height: 54px;
+    background-color: #f5f5f5;
+    line-height: 54px;
+    text-align: center;
+    margin-bottom: 32px;
+
+    span {
+      color: #ff8b38;
+    }
+  }
+
+  .input-group {
+    padding: 0px 38px;
+  }
+
+  .form-input {
+    width: 100%;
+    border-bottom: 1px solid #d6d6d6;
+    height: 30px;
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin-bottom: 50px;
+    }
+
+    input {
+      border: 0;
+      outline: 0;
+      font-size: 15px;
+
+      &::placeholder {
+        color: #d6d6d6;
+      }
+    }
+  }
+
+  .submit-btn {
+    height: 54px;
+    width: 100%;
+    background-color: #ff9b51;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #fba15c;
+    }
+  }
+}
