@@ -132,3 +132,90 @@
     }
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .page-title-wrapper {
+    gap: 100px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .page-title-wrapper {
+    gap: unset;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .page-title-wrapper {
+    gap: unset;
+
+    .logo {
+      width: 120px;
+      margin-bottom: 20px;
+    }
+
+    .title {
+      width: 300px;
+      font-size: 22px;
+    }
+
+    .divider {
+      margin: 20px 0px;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .page-title-wrapper {
+    flex-direction: column;
+    height: 800px;
+
+    .logo {
+      margin: 0px auto 20px;
+      display: block;
+    }
+
+    .title {
+      text-align: center;
+      margin: 0px auto;
+    }
+
+    .divider {
+      margin: 20px auto;
+    }
+
+    .sub-title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .download-btn {
+      margin: 0px auto;
+      display: block;
+    }
+
+    .register-container {
+      margin-top: 45px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .page-title-wrapper {
+    padding: 40px 0px;
+    height: auto;
+
+    .title {
+      width: auto;
+    }
+
+    .sub-title {
+      width: auto;
+    }
+
+    .register-container {
+      width: auto;
+      height: auto;
+    }
+  }
+}

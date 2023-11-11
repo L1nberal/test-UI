@@ -19,6 +19,14 @@
     width: 80px;
   }
 
+  .hamburger {
+    display: none;
+  }
+
+  .close-btn {
+    display: none;
+  }
+
   .nav-list {
     margin: 0;
     padding: 0;
@@ -39,6 +47,78 @@
 
     &:hover {
       background-color: #1e1e1e;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .header-wrapper {
+    .inner {
+      width: 90%;
+    }
+  }
+}
+
+@media only screen and (max-width: 754px) {
+  .header-wrapper {
+    position: relative;
+
+    .hamburger {
+      display: block;
+      display: flex;
+      align-items: center;
+    }
+
+    .list-btn {
+      color: white;
+      background-color: transparent;
+      outline: 0;
+      border: 1px solid rgb(248, 248, 248);
+      font-size: 18px;
+      width: 30px;
+      height: 30px;
+      border-radius: 3px;
+
+      &:hover {
+        background-color: white;
+        color: black;
+      }
+    }
+
+    .nav-bar {
+      position: absolute;
+      background-color: white;
+      height: 100vh;
+      top: 0;
+      width: 300px;
+      right: -300px;
+      transition: 500ms;
+    }
+
+    .close-btn {
+      background-color: transparent;
+      border: solid 1px black;
+      border-radius: 3px;
+      outline: 0;
+      cursor: pointer;
+      margin-bottom: 3px;
+      margin-left: 3px;
+      font-size: 16px;
+      display: block;
+
+      &:hover {
+        background-color: black;
+        color: white;
+      }
+    }
+
+    .nav-list {
+      flex-direction: column;
+    }
+
+    .nav-item {
+      flex-grow: unset;
+      width: 300px;
     }
   }
 }

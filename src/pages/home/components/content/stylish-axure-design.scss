@@ -39,3 +39,24 @@
     display: block;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .stylish-axure-wrapper {
+    .inner {
+      width: unset;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .stylish-axure-wrapper {
+    .inner {
+      height: unset;
+      padding: 40px 0px;
+    }
+
+    .title {
+      font-size: 33px;
+    }
+  }
+}

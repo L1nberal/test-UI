@@ -73,3 +73,49 @@
     font-size: 15px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .why-awesome-wrapper {
+    .inner {
+      height: auto;
+      width: unset;
+      padding: 70px 0px;
+    }
+
+    .divider {
+      margin: 20px auto;
+    }
+
+    .reasons-list {
+      flex-direction: column;
+    }
+
+    .list-item {
+      margin: 0px auto 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .why-awesome-wrapper {
+    .title {
+      font-size: 35px;
+    }
+
+    .sub-title {
+      width: unset;
+    }
+
+    .list-item {
+      max-width: 350px;
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .why-awesome-wrapper {
+    .list-item {
+      width: unset;
+    }
+  }
+}

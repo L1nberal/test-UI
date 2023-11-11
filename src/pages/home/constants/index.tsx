@@ -3,9 +3,7 @@ export const tabsContent = [
     index: 1,
     content: (
       <>
-        <div className='title'>
-          Tabs with soft transitioning effect ----tab1
-        </div>
+        <div className='title'>Tabs with soft transitioning effect</div>
         <div className='paragraph'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
           euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
@@ -22,9 +20,7 @@ export const tabsContent = [
     index: 2,
     content: (
       <>
-        <div className='title'>
-          Tabs with soft transitioning effect ----tab2
-        </div>
+        <div className='title'>Tabs with soft transitioning effect</div>
         <div className='paragraph'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
           euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan
@@ -41,9 +37,7 @@ export const tabsContent = [
     index: 3,
     content: (
       <>
-        <div className='title'>
-          Tabs with soft transitioning effect ----tab3
-        </div>
+        <div className='title'>Tabs with soft transitioning effect</div>
         <div className='paragraph'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
           euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan

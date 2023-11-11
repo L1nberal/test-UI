@@ -72,3 +72,59 @@
     top: 9px;
   }
 }
+
+@media only screen and (max-width: 1200px) {
+  .sub-list-wrapper {
+    .inner {
+      flex-direction: column;
+      height: auto;
+      width: unset;
+      padding: 70px 0px;
+    }
+
+    .title {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .divider {
+      margin: 30px auto;
+    }
+
+    .paragraph {
+      text-align: center;
+    }
+
+    .sub-content {
+      flex-direction: column;
+
+      .image-group {
+        margin: 0px auto;
+      }
+
+      .circle-image {
+        margin-right: 0px;
+      }
+
+      .title {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .sub-list-wrapper {
+    .city-image {
+      width: 350px;
+    }
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .sub-list-wrapper {
+    .content {
+      width: unset;
+    }
+  }
+}
