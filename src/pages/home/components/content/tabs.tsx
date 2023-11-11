@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import buildingsImage from '../../../../assets/buildings.png';
 import { tabsContent } from '../../constants';
+import './tabs.scss';
 
 export const Tabs = () => {
   const [tabIndex, setTabIndex] = useState<number>(1);

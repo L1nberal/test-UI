@@ -1,0 +1,75 @@
+.why-awesome-wrapper {
+  background-color: white;
+
+  .inner {
+    height: 600px;
+    width: 1100px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 40px;
+    font-weight: 400;
+    color: #595959;
+    text-align: center;
+  }
+
+  .divider {
+    width: 70px;
+    height: 1px;
+    margin: 30px auto;
+    background-color: #ff8b38;
+  }
+
+  .sub-title {
+    text-align: center;
+    font-size: 15px;
+    color: #a2a3a6;
+  }
+
+  .reasons-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .list-item {
+    width: 350px;
+    list-style: none;
+    position: relative;
+  }
+
+  .circle-image {
+    width: 70px;
+    height: 70px;
+    margin: 0px auto;
+    display: block;
+  }
+
+  .icon {
+    position: absolute;
+    width: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 18px;
+  }
+
+  .item-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 30px 0px;
+    text-align: center;
+    color: #333333;
+  }
+
+  .paragraph {
+    color: #a2a3a6;
+    text-align: center;
+    font-size: 15px;
+  }
+}

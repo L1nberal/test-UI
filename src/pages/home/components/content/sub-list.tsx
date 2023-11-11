@@ -2,6 +2,7 @@ import cityImage from '../../../../assets/city-image.png';
 import circleImage from '../../../../assets/circle.png';
 import uploadIcon from '../../../../assets/upload-icon.png';
 import downloadIcon from '../../../../assets/download-icon.png';
+import './sub-list.scss';
 
 export const SubList = () => {
   return (
