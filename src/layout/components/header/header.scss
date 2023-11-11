@@ -61,8 +61,6 @@
 
 @media only screen and (max-width: 754px) {
   .header-wrapper {
-    position: relative;
-
     .hamburger {
       display: block;
       display: flex;
@@ -86,12 +84,14 @@
     }
 
     .nav-bar {
-      position: absolute;
+      position: fixed;
       background-color: white;
       min-height: 100vh;
       top: 0;
       transition: 500ms;
       z-index: 10;
+      top: 0;
+      right: 0;
     }
 
     .close-btn {
@@ -100,8 +100,7 @@
       border-radius: 3px;
       outline: 0;
       cursor: pointer;
-      margin-bottom: 3px;
-      margin-left: 3px;
+      margin: 3px 0px 3px 3px;
       font-size: 16px;
       display: block;
 
